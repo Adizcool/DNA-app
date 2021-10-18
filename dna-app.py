@@ -6,10 +6,10 @@ from PIL import Image
 
 image = Image.open('dna-logo.png')
 
-st.image(image, use_column_width=True)
+st.image(image, width=500)
 
-st.write(''' # DNA Nucleotide Count Web Application
-            This app counts the nucleotide composition of query DNA
+st.write(''' # DNA Nucleotide Count Application
+               This app counts the nucleotide composition of query DNA
          ''')
 st.write(''' *** ''')   # *** creates horizontal line
 
